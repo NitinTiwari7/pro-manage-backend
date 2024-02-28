@@ -14,5 +14,5 @@ app.use('/',taskRouter);
 app.listen(PORT,()=>{
     console.log(`Server started at the port ${PORT}`)
     connect();
-    console.log("Yup!! Server is runnning");
+    console.log("server started");
 })
